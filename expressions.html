@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculating with js</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <H1>Temperature converter</H1>
+    <script>
+        function convert() {
+            let celsius_temp = document.getElementById('celsius').value;
+            let fahren_temp = 9 * celsius_temp / 5 + 32.0;
+            document.getElementById('fahrenheit').innerHTML = fahren_temp;
+        }
+    </script>
+    Celsius : <input type=text id="celsius" onchange="convert();" /> <br> Fahrenheit : <span id="fahrenheit"></span>
+</body>
+
+</html>

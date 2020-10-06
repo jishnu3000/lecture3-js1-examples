@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Some inline javascript</title>
+    <meta charset="UTF-8">
+    <script>
+        var name = "Smith";
+
+        function buildGreeting() {
+            name = "Hello, " + name + "!";
+        }
+        buildGreeting();
+    </script>
+</head>
+
+<body>
+    <div style=" background-color: cyan; height: 200px;
+    width: 50%;" onclick="window.alert(name);">
+        Click me !!!
+    </div>
+</body>
+
+</html>
